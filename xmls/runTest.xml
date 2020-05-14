@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jsonComparison" parallel="true" data-provider-thread-count="30">
+    <listeners>
+        <listener class-name="org.excelUtility.utils.Reporter"></listener>
+    </listeners>
+    <test name="sanity" >
+
+        <classes>
+            <class name="org.excelUtility.TestCases"></class>
+        </classes>
+    </test>
+</suite>
